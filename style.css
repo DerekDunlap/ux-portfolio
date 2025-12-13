@@ -1,0 +1,105 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+.container {
+    width: 100%;
+    padding: 1.094em 5.25em;
+}
+
+h1,h2, h3{
+    margin: 0;
+    text-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+}
+
+.pri-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.case-study a {
+    font-size: 1.75em;
+    font-weight: 500;
+    writing-mode: sideways-lr;
+    width: min-content;
+}
+
+.hero-picture {
+    display: flex;
+    gap: 1.125em;
+}
+
+.role-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.role-heading {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    font-size: 5em;
+}
+
+.name-heading {
+    color: #ffffff;
+    mix-blend-mode: difference;
+    font-size: 6em;
+}
+
+.pri-case-study {
+    display: flex;
+    background: #000;
+    color: #fff;
+}
+
+.sec-case-study {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: 75%;
+}
+
+li {
+    list-style-type: none;
+}
