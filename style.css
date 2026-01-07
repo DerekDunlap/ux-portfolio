@@ -127,7 +127,7 @@ a:hover {
     font-size: 6em;
 }
 
-.pri-case-study {
+.pri-case-study, .sec-case-study {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,15 +135,27 @@ a:hover {
     gap: 4em
 }
 
-.video {
+.p1-img-frame {
     display: flex;
     justify-content: center;
-    background: linear-gradient(359deg, rgba(191, 217, 203, 0.97) 14.29%, #58A689 96.24%);
+    background: linear-gradient(359deg, #BFD9CBF7 14.29%, #58A689 96.24%);
     padding: 5em;
     gap: 3em;
 }
 
-.project-one-video {
+.p1-img-current img, .p1-img-redesign img{
+    height: auto;
+}
+
+.p2-video {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( 359deg, #BFD9CBF7 14.29%, #B2D6FF 96.24% );
+    padding: 5em;
+    gap: 3em;
+}
+
+.project-one-video, .project-two-video {
     display: flex;
     align-items: center;
     width: 511px;
@@ -151,23 +163,23 @@ a:hover {
     aspect-ratio: 511/333;
 }
 
-.project-one-brief {
+.project-one-brief, .project-two-brief {
     display: flex;
     justify-content:space-between;
 }
 
-.project-one-info {
+.project-one-info, .project-two-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0;
 }
 
-.project-one-industry-research {
+.project-one-industry-research, .project-two-industry-research {
     display: flex;
 }
 
-.project-one-user-research {
+.project-one-user-research, .project-two-user-research {
     display: flex;
     gap: 5rem;
 }
